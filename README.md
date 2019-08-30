@@ -6,7 +6,7 @@ gulp-webdriver [![Build Status](https://travis-ci.org/webdriverio/gulp-webdriver
 ## Install
 
 ```shell
-npm install gulp-webdriver --save-dev
+npm install taku-o/gulp-webdriver#feature/2.0.3-forked/wdio-cli-support --save-dev
 ```
 
 ## Usage
