@@ -1,10 +1,13 @@
 {
   "name": "@taku-o/gulp-webdriver",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Fork of gulp-webdriver. @wdio/cli support version of gulp-webdriver.",
   "repository": {
     "type": "git",
     "url": "git://github.com/taku-o/gulp-webdriver.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "main": "lib/index.js",
   "scripts": {
