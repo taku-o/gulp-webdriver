@@ -6,7 +6,7 @@ gulp-webdriver [![Build Status](https://travis-ci.org/webdriverio/gulp-webdriver
 ## Install
 
 ```shell
-npm install gulp-webdriver --save-dev
+npm install @taku-o/gulp-webdriver --save-dev
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ npm install gulp-webdriver --save-dev
 You can run WebdriverIO locally by running this simple task:
 
 ```js
-import webdriver from 'gulp-webdriver';
+import webdriver from '@taku-o/gulp-webdriver';
 
 gulp.task('test:e2e', function() {
     return gulp.src('wdio.conf.js').pipe(webdriver());
@@ -27,7 +27,7 @@ You can find all available options [here](http://webdriver.io/guide/testrunner/g
 or by executing `$ wdio --help` (if you have WebdriverIO installed globally).
 
 ```js
-import webdriver from 'gulp-webdriver';
+import webdriver from '@taku-o/gulp-webdriver';
 
 gulp.task('test:e2e', function() {
     return gulp.src('wdio.conf.js').pipe(webdriver({
@@ -54,3 +54,5 @@ maintain the existing coding style.
 * 2016-03-16   v2.0.0       updated codebase to ES6 and WebdriverIO to v4.0
 * 2016-03-30   v2.0.1       improved error handling
 * 2016-07-06   v2.0.2       fixed bug where gulp end event was not fired
+* 2019-09-06   v3.0.0       Fork webdriverio/gulp-webdriver master, and publish. this version support @wdio/cli.
+

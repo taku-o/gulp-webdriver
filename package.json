@@ -1,10 +1,10 @@
 {
-  "name": "gulp-webdriver",
-  "version": "2.0.3",
-  "description": "gulp-webdriver is a gulp plugin to run selenium tests with the WebdriverIO testrunner",
+  "name": "@taku-o/gulp-webdriver",
+  "version": "3.0.0",
+  "description": "Fork of gulp-webdriver. @wdio/cli support version of gulp-webdriver.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/webdriverio/gulp-webdriver.git"
+    "url": "git://github.com/taku-o/gulp-webdriver.git"
   },
   "main": "lib/index.js",
   "scripts": {
@@ -28,12 +28,12 @@
     "runner",
     "gulpplugin"
   ],
-  "author": "Christian Bromann <mail@christian-bromann.com>",
+  "author": "taku-o <mail@nanasi.jp> (https://nanasi.jp/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webdriverio/gulp-webdriver/issues"
+    "url": "https://github.com/taku-o/gulp-webdriver/issues"
   },
-  "homepage": "https://github.com/webdriverio/gulp-webdriver",
+  "homepage": "https://github.com/taku-o/gulp-webdriver",
   "dependencies": {
     "babel-polyfill": "^6.7.2",
     "gulp-util": "^3.0.7",
