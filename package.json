@@ -1,7 +1,7 @@
 {
   "name": "@taku-o/gulp-webdriver",
-  "version": "3.0.3",
-  "description": "Fork of gulp-webdriver. @wdio/cli support version of gulp-webdriver.",
+  "version": "3.0.4",
+  "description": "Fork of gulp-webdriver. @wdio/cli supported version of gulp-webdriver.",
   "repository": {
     "type": "git",
     "url": "git://github.com/taku-o/gulp-webdriver.git"
